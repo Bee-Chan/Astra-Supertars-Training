@@ -160,17 +160,17 @@ end
 
 
 function guiWriter() -- Writes the GUI
-	gui.text(420,140, playerOneHealth) -- P1 Health 
-	gui.text(1450,140, playerTwoHealth) -- P2 Health
-	gui.text(500,800,tostring(memory.readbyte(0x07F510))) -- P1's meter fill
-	gui.text(1380,800,tostring(memory.readbyte(0x07F9C4))) -- P2's meter fill
+	gui.text(120,115, playerOneHealth) -- P1 Health 
+	gui.text(900,115, playerTwoHealth) -- P2 Health
+	gui.text(160,620,tostring(memory.readbyte(0x07F510))) -- P1's meter fill
+	gui.text(850,620,tostring(memory.readbyte(0x07F9C4))) -- P2's meter fill
 
 	if (toggleP1Gui) then
 
-		gui.text(540,300,"P1 Damage: ".. tostring(playerTwoPreviousDamage)) -- Damage of P1's last hit
-		gui.text(540,320,"P1 Combo: ")
-		gui.text(640,320, displayComboCounterP1, comboCounterColourP1) -- P1's combo count
-		gui.text(540,340,"P1 Combo Damage: ".. tostring(playerOneComboDamage)) -- Damage of P1's combo in total
+		gui.text(120,300,"P1 Damage: ".. tostring(playerTwoPreviousDamage)) -- Damage of P1's last hit
+		gui.text(120,320,"P1 Combo: ")
+		gui.text(220,320, displayComboCounterP1, comboCounterColourP1) -- P1's combo count
+		gui.text(120,340,"P1 Combo Damage: ".. tostring(playerOneComboDamage)) -- Damage of P1's combo in total
 
 
 	end
