@@ -15,7 +15,7 @@ Once the game is open you will go to
 
 4.Open script
 
-5.Search for the Astra_training.lua file
+5.Search for the Astra superstars training mode.lua file
 
 6.open it
 
