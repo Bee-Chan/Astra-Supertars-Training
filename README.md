@@ -3,7 +3,7 @@ Just a simple Astra Superstars Training Mode
 
 Thanks to Peon2, their whole work in other training was used here for the core structure and more.
 
-In order to use the training you will need the BizHawk emulator that supports Lua
+In order to use the training you will need the BizHawk emulator 
 
 Once the game is open you will go to
 
