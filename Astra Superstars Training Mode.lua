@@ -194,6 +194,9 @@ while true do
 	memoryReader()
 	gameplayLoop()
 	guiWriter()
+	memory.writebyte(0x08608F, 0x00)-- Flashing lights
+	memory.writebyte(0x08608C, 0x00)
+	memory.writebyte(0x07F630, 0x07)
     memory.writebyte(0x07E6D8, 0x02)
     memory.writebyte(0x07E6DA, 0x02)
     memory.writebyte(0x082C8A, 0x93)
