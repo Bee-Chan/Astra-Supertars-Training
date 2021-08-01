@@ -1,6 +1,7 @@
 print("Astra Superstars Training Mode")
 print("Hope you find this useful")
 print("Made by Bee Chan")
+print("credits to Peon2 for it's Jojo lua that this lua is based off")
 
 --Defining variables
 
